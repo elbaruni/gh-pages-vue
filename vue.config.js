@@ -1,4 +1,7 @@
-module.exports = {
+/* module.exports = {
   transpileDependencies: ["vuetify"],
-  publicPath: "/contracts/"
+  publicPath: "/gh-pages-vue/"
+}; */
+module.exports = {
+  transpileDependencies: ["vuetify"]
 };
