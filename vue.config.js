@@ -1,7 +1,8 @@
 /* module.exports = {
   transpileDependencies: ["vuetify"],
-  publicPath: "/gh-pages-vue/"
+  publicPath: "/contracts/"
 }; */
 module.exports = {
-  transpileDependencies: ["vuetify"]
+  transpileDependencies: ["vuetify"],
+  publicPath: process.env.NODE_ENV === "production" ? "/contracts/" : "/"
 };

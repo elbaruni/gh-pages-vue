@@ -20,8 +20,8 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-  git push -f  https://github.com/elbaruni/gh-pages-vue.git master:gh-pages
+  git push -f  https://github.com/elbaruni/contracts.git master:gh-pages
 #git remote add origin https://github.com/elbaruni/gh-pages-vue.git
 
 
-//https://github.com/elbaruni/contracts.git
+#https://github.com/elbaruni/contracts.git

@@ -29,8 +29,8 @@
                     :rules="numberRules"
                     label="Number of Tokens"
                     type="number"
-                    :min="1"
-                    :max="10000000000000000000000"
+                    :min="0.000000000000000001"
+                    :max="1000000000"
                     required
                   ></v-text-field>
                 </v-col>
